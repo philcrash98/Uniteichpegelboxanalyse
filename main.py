@@ -71,7 +71,7 @@ end_date = combined_df['Timestamp'].max()
 image_files = ["Uniteichbox13_10_25", "Uniteichbox13_10_25", "Uniteichbox13_10_25"]  # ohne Endung
 image_extensions = [".jpeg", ".jpeg", ".jpeg"]  # Endungen
 image_timestamps = [
-    datetime(2025, 8, 29, 0, 0),
+    datetime(2025, 8, 29, 11, 30),
     datetime(2025, 9, 19, 0, 0),
     datetime(2025, 10, 13, 0, 0)
 ]
