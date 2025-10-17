@@ -200,7 +200,7 @@ app.layout = html.Div([
                     'gap': '10px',
                     'justifyContent': 'center',
                     'marginTop': '20px',
-                    'height': '540px',
+                    'height': '1000px',
                     'width': 'auto'
                 }),
 
@@ -452,7 +452,7 @@ def update_image_gallery(start_date, end_date):
     for _, row in filtered_images.iterrows():
         gallery_items.append(html.Div([
             html.Img(src=row['Pfad'], style={
-                'width': '360px',
+                'width': '540px',
                 'height': 'auto',
                 'borderRadius': '8px',
                 'cursor': 'pointer'
